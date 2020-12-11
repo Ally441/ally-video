@@ -1,0 +1,17 @@
+com\imooc\pojo\UsersLikeVideos.class
+com\imooc\mapper\CommentsMapper.class
+com\imooc\pojo\Bgm.class
+com\imooc\mapper\UsersMapper.class
+com\imooc\pojo\Videos.class
+com\imooc\mapper\UsersLikeVideosMapper.class
+com\imooc\pojo\Users.class
+com\imooc\mapper\BgmMapper.class
+com\imooc\mapper\SearchRecordsMapper.class
+com\imooc\pojo\UsersReport.class
+com\imooc\pojo\Comments.class
+com\imooc\pojo\SearchRecords.class
+com\imooc\mapper\VideosMapper.class
+com\imooc\utils\MyMapper.class
+com\imooc\pojo\UsersFans.class
+com\imooc\mapper\UsersFansMapper.class
+com\imooc\mapper\UsersReportMapper.class

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.UsersMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.Users">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="face_image" jdbcType="VARCHAR" property="faceImage" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="fans_counts" jdbcType="INTEGER" property="fansCounts" />
+    <result column="follow_counts" jdbcType="INTEGER" property="followCounts" />
+    <result column="receive_like_counts" jdbcType="INTEGER" property="receiveLikeCounts" />
+  </resultMap>
+  <!-- 增加关注数量 -->
+  <update id="addFollowerCount" parameterType="String">
+    update users
+    set
+    follow_counts = follow_counts + 1
+    where id = #{userId}
+  </update>
+  <!-- 减少关注数量 -->
+  <update id="reduceFollowerCount" parameterType="String">
+    update users
+    set
+    follow_counts = follow_counts -1
+    where id = #{userId}
+  </update>
+  <!-- 增加粉丝数 -->
+  <update id="addFansCount" parameterType="String">
+    update users
+    set
+    fans_counts = fans_counts + 1
+    where id = #{userId}
+  </update>
+  <!-- 减少粉丝数 -->
+  <update id="reduceFansCount" parameterType="String">
+    update users
+    set
+    fans_counts = fans_counts - 1
+    where id = #{userId}
+  </update>
+  <!--增加点赞数-->
+  <update id="addReceiveLikeCount" parameterType="String">
+    update users
+    set
+    receive_like_counts = receive_like_counts + 1
+    where id = #{userId}
+  </update>
+  <!--减少点赞数-->
+  <update id="reduceReceiveLikeCount" parameterType="String">
+    update users
+    set
+    receive_like_counts = receive_like_counts - 1
+    where id = #{userId}
+  </update>
+</mapper>

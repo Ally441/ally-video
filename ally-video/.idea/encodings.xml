@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ally-video-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ally-video-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-generatorConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-generatorConfig/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
